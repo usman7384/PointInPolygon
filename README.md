@@ -32,16 +32,3 @@ This project implements a **Point-in-Polygon** checker using the **Ray-Casting A
 ### Visualization
 The script plots the polygon and the test point using `matplotlib`, along with a dashed red line representing the ray.
 
-## Example
-Given the polygon:
-```python
-polygon = [(0, 0), (10, 0), (10, 10), (0, 10), (2, 6), (8, 6)]
-```
-And test point:
-```python
-p = (4, 2)
-```
-Output:
-```
-Outside the Polygon
-```
